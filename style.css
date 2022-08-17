@@ -142,9 +142,32 @@ button{
     border-radius: 8px;
     display: flex;
     color: #f9faf8;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .action-container{
     display: flex;
     flex-direction: column;
+    margin: 43px;
+}
+
+.action-title{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.action-info{
+    margin: 0;
+}
+
+.action-button{
+    border-color: #f9faf8;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
